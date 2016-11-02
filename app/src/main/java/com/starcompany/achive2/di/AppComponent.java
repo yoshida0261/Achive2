@@ -1,5 +1,7 @@
 package com.starcompany.achive2.di;
 
+import com.starcompany.achive2.activity.MainActivity;
+
 import javax.inject.Singleton;
 
 import dagger.Component;
@@ -11,6 +13,8 @@ import dagger.Component;
 @Component(modules = AppModule.class)
 public interface AppComponent {
     //void inject(StethoWrapper stethoDelegator);
+
+    void inject(MainActivity stethoDelegator);
 
     ActivityComponent plus(ActivityModule module);
 

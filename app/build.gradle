@@ -8,7 +8,7 @@ dependencies {
     compile "com.android.support:support-v4:${support_lib_version}"
     android {
 
-        compileSdkVersion 23
+        compileSdkVersion 24
         buildToolsVersion "24.0.3"
 
         dataBinding {
@@ -18,7 +18,7 @@ dependencies {
         defaultConfig {
             applicationId "com.starcompany.achive2"
             minSdkVersion 17
-            targetSdkVersion 23
+            targetSdkVersion 24
             versionCode 1
             versionName "1.0"
         }
