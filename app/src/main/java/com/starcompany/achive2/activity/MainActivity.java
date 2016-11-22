@@ -14,6 +14,26 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         //setContentView(R.layout.activity_main);
+
+        // DBからタスクをチェック
+
+        // １週間分の成果を表示するActivityを表示
+
+        // 戻ってきたらタスクを表示
+
+            // task
+
+        // Navigation Drawer
+
+        // graph
+
+        // profile
+
+        // help
+
+        // setting
+
+
 /*
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main);*/
     }
